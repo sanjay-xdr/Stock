@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+    <title>Stock Profit & Loss Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <header>
+      <h1>Stock Profile & Loss Calculator</h1>
+      <p>Enter the initial price,No of Stock and Current Price</p>
+    </header>
+    <main>
+      <label class="input-label" for="initial-price">
+        Intial Price
+        <input
+          class="input"
+          type="text"
+          id="initialprice"
+          placeholder="Enter Initial Price Here"/></label>
+      <label class="input-label" for="stocks-quantity">
+        Quantity of Stocks
+        <input
+          class="input"
+          type="text"
+          id="stocks"
+          placeholder="Enter the Number of Stocks bought"
+        />
+      </label>
+      <label class="input-label" for="current-price"
+        >Current Price
+        <input
+          class="input"
+          type="text"
+          id="currentprice"
+          placeholder="Enter the Current Price of the stocks"
+      /></label>
+
+      <button id="submit" class="check">Check</button>
+
+      <div id="output-el" class="output"></div>
+    </main>
+
+    <footer >
+      <a class="c-social__link" href="https://github.com/sanjay-xdr" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a class="c-social__link" href="https://twitter.com/sanjayxdr" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+      <a class="c-social__link" href="https://www.linkedin.com/in/sanjay-jaiswal-603757202/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a> 
+      <a class="c-social__link" href="https://www.instagram.com/sanjayjaiswal._/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a> 
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
